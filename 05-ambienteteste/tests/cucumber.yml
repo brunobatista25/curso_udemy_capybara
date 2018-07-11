@@ -1,0 +1,15 @@
+---
+
+default: --profile progress -p homolog -p firefox_headless
+
+pretty: --format pretty
+progress: --format progress
+homolog: AMBIENTE=homolog
+producao: AMBIENTE=producao
+chrome: BROWSER=chrome
+chrome_headless: BROWSER=chrome_headless
+firefox: BROWSER=firefox
+firefox_headless: BROWSER=firefox_headless
+#safari: BROWSER=safari
+#ie: BROWSER=ie
+#poltergeist:  BROWSER=poltergeist
